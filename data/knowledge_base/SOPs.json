@@ -1,0 +1,222 @@
+{
+  "customer_support_sops": {
+    "overview": "Standard Operating Procedures for ShopEase Customer Support Team to ensure consistent, high-quality service delivery.",
+    "general_guidelines": {
+      "response_times": {
+        "live_chat": "Initial response within 2 minutes",
+        "email": "Response within 24 hours",
+        "phone": "Answer within 3 rings or 30 seconds",
+        "social_media": "Acknowledge within 1 hour"
+      },
+      "communication_standards": {
+        "tone": "Friendly, professional, empathetic",
+        "language": "Clear, concise, jargon-free",
+        "personalization": "Use customer's name, reference order details",
+        "closing": "Always ask if there's anything else you can help with"
+      },
+      "escalation_triggers": [
+        "Customer requests to speak with supervisor",
+        "Issue requires policy exception",
+        "Potential legal matter or threat",
+        "Abusive or threatening behavior",
+        "Technical issue beyond standard troubleshooting",
+        "Order value exceeds $1,000 with dispute"
+      ]
+    },
+    "order_inquiry_handling": {
+      "step_1": {
+        "action": "Verify customer identity",
+        "details": "Request order number and email address. If customer doesn't have order number, search by email and confirm shipping address."
+      },
+      "step_2": {
+        "action": "Locate order in system",
+        "details": "Pull up order details, verify status, review order history and any previous support interactions."
+      },
+      "step_3": {
+        "action": "Provide detailed status update",
+        "details": "Share current status, tracking number if shipped, estimated delivery date. If delayed, proactively explain reason and provide revised timeline."
+      },
+      "step_4": {
+        "action": "Address concerns or issues",
+        "details": "If customer reports problem, follow appropriate SOP (lost package, damaged item, etc.). Document all communications in order notes."
+      },
+      "step_5": {
+        "action": "Follow-up",
+        "details": "If issue unresolved, schedule follow-up. Set reminder to check status and contact customer proactively."
+      }
+    },
+    "lost_package_procedure": {
+      "step_1": {
+        "action": "Verify tracking information",
+        "details": "Check last scan location and date. If no scans for 5+ days after ship date, proceed to Step 2."
+      },
+      "step_2": {
+        "action": "Contact carrier",
+        "details": "File trace request with shipping carrier. Document case number and expected resolution time (typically 5-7 business days)."
+      },
+      "step_3": {
+        "action": "Communicate with customer",
+        "details": "Inform customer of trace request, provide case number, and set expectation for resolution timeline."
+      },
+      "step_4": {
+        "action": "Resolution",
+        "details": "If package not located within 7 days: Offer immediate refund OR rush replacement shipment (customer choice). Process request same day."
+      },
+      "step_5": {
+        "action": "Prevention",
+        "details": "Flag delivery address for signature requirement on future orders if in high-theft area."
+      }
+    },
+    "damaged_item_procedure": {
+      "step_1": {
+        "action": "Request photographic evidence",
+        "details": "Ask customer to email photos showing: damaged item, packaging, shipping label. Photos must clearly show extent of damage."
+      },
+      "step_2": {
+        "action": "Assess damage",
+        "details": "Review photos. If minor cosmetic damage, offer 15% discount to keep. If significant damage, proceed to Step 3."
+      },
+      "step_3": {
+        "action": "Offer resolution",
+        "details": "Provide three options: (1) Full refund with return label, (2) Replacement shipment (keep damaged item), (3) Store credit for 110% of purchase price."
+      },
+      "step_4": {
+        "action": "Process customer choice",
+        "details": "Execute chosen resolution immediately. If replacement, ship within 24 hours using expedited shipping at no charge."
+      },
+      "step_5": {
+        "action": "Report to warehouse",
+        "details": "File incident report with warehouse team for packaging improvement. Include photos and carrier information."
+      }
+    },
+    "return_processing": {
+      "eligibility_check": {
+        "action": "Verify return window",
+        "details": "Check days since delivery: Standard items (30 days), Electronics (14 days), Jewelry (60 days). If outside window, escalate for exception consideration."
+      },
+      "initiate_return": {
+        "action": "Generate return authorization",
+        "details": "Create RMA number in system, email return label to customer, provide instructions for packaging and drop-off locations."
+      },
+      "track_return": {
+        "action": "Monitor return shipment",
+        "details": "Track return package. Upon arrival at warehouse, verify condition within 24 hours. Flag any discrepancies (used item, wrong item returned)."
+      },
+      "process_refund": {
+        "action": "Issue refund",
+        "details": "If item passes inspection, process refund within 24 hours. Email confirmation with expected credit date (3-5 business days). If failed inspection, contact customer with evidence and options."
+      },
+      "quality_assurance": {
+        "action": "Restocking",
+        "details": "Inspect returned items for resale eligibility. Items showing wear go to clearance. Defective items sent to vendor for credit."
+      }
+    },
+    "discount_code_issues": {
+      "code_not_working": {
+        "step_1": "Verify code is typed correctly (case-sensitive)",
+        "step_2": "Check code expiration date and usage limits",
+        "step_3": "Confirm cart meets minimum purchase requirements",
+        "step_4": "Ensure items aren't excluded (sale items, specific brands)",
+        "step_5": "If all conditions met but still failing, manually apply discount and report bug to tech team"
+      },
+      "code_requests": {
+        "policy": "Do not provide discount codes unless customer received one via email/promotional materials. Direct them to sign up for email list for future promotions.",
+        "exceptions": "May provide one-time 10% courtesy code for: service recovery after poor experience, technical issues causing checkout problems, delayed shipments"
+      }
+    },
+    "refund_processing": {
+      "immediate_refunds": [
+        "Cancelled orders before shipment",
+        "Duplicate charges",
+        "Price adjustments (price match, promo missed)"
+      ],
+      "standard_timeline": "5-7 business days after return received or cancellation",
+      "delayed_refunds": {
+        "international_orders": "7-14 business days",
+        "large_purchases_over_$500": "May require manager approval, up to 10 business days"
+      },
+      "partial_refunds": {
+        "triggers": [
+          "Item shows signs of use",
+          "Missing components or accessories",
+          "Damaged due to customer mishandling"
+        ],
+        "process": "Email customer with photos/explanation, offer partial refund amount (typically 50-70%), await confirmation before processing"
+      }
+    },
+    "technical_support": {
+      "basic_troubleshooting": {
+        "website_issues": [
+          "Clear cache and cookies",
+          "Try different browser",
+          "Disable browser extensions",
+          "Check internet connection"
+        ],
+        "checkout_problems": [
+          "Verify payment information is correct",
+          "Check if billing address matches card",
+          "Try alternative payment method",
+          "Confirm sufficient funds/credit"
+        ]
+      },
+      "escalation_to_tech_team": {
+        "when": "Issue persists after basic troubleshooting",
+        "information_needed": [
+          "Browser and version",
+          "Device type (desktop/mobile)",
+          "Screenshot or error message",
+          "Steps to reproduce issue"
+        ],
+        "response_time": "Tech team will respond within 4 hours during business hours"
+      }
+    },
+    "fraud_prevention": {
+      "red_flags": [
+        "Multiple orders to different addresses with same payment",
+        "Rush shipping requests on high-value electronics",
+        "Shipping address doesn't match billing",
+        "Multiple failed payment attempts",
+        "Orders from high-risk countries to domestic address"
+      ],
+      "verification_steps": {
+        "action": "Contact customer via phone to verify order",
+        "required_info": "Confirm billing address, last 4 of card, purpose of purchase",
+        "documentation": "Note conversation details in order comments"
+      },
+      "cancellation_protocol": {
+        "when": "Customer cannot be reached or fails verification",
+        "action": "Cancel order, refund payment, flag account for review",
+        "notification": "Email customer explaining security measure and steps to reorder"
+      }
+    },
+    "quality_assurance": {
+      "ticket_review": {
+        "frequency": "Random 10% of tickets reviewed weekly",
+        "criteria": [
+          "Issue resolved on first contact",
+          "Response time within SLA",
+          "Tone and professionalism",
+          "Accurate information provided",
+          "Proper documentation"
+        ]
+      },
+      "customer_satisfaction": {
+        "surveys": "Sent 24 hours after ticket closure",
+        "target_score": "4.5/5 average rating",
+        "follow_up": "Negative ratings (<3) trigger supervisor review and customer callback"
+      }
+    }
+  },
+  "warehouse_fulfillment_sops": {
+    "order_processing": {
+      "picking": "Orders picked in batch by zone. High-priority (express) orders picked first. Scan each item barcode to verify accuracy.",
+      "packing": "Use appropriate box size. Electronics require bubble wrap. Fragile items marked with stickers. Include packing slip and promotional materials.",
+      "shipping": "Print labels via integrated system. Attach to package securely. Scan outbound to update tracking. Load onto carrier trucks by 6 PM daily for same-day processing."
+    },
+    "inventory_management": {
+      "receiving": "Inspect incoming shipments for damage. Verify quantities against PO. Update inventory system immediately. Report discrepancies to purchasing.",
+      "cycle_counts": "Conduct daily cycle counts on high-turnover items. Full inventory quarterly. Investigate and correct variances >2%.",
+      "stockouts": "Alert purchasing when inventory drops below reorder point. Update product pages to 'Out of Stock'. Offer email notifications when restocked."
+    }
+  }
+}
