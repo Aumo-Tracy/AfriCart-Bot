@@ -1,0 +1,219 @@
+{
+  "return_policy": {
+    "overview": "ShopEase offers a customer-friendly return policy to ensure satisfaction with every purchase. Returns are accepted within specified timeframes based on product category.",
+    "general_terms": {
+      "standard_window": "30 days from delivery date",
+      "condition_requirements": [
+        "Items must be unused and in original condition",
+        "Original packaging and tags must be intact",
+        "Proof of purchase required (order confirmation or receipt)",
+        "Items must be free from damage, stains, or alterations"
+      ],
+      "non_returnable_items": [
+        "Custom or personalized items",
+        "Intimate apparel and swimwear",
+        "Perishable goods and food items",
+        "Digital downloads and gift cards",
+        "Final sale items (marked as such at purchase)",
+        "Opened health and personal care items"
+      ]
+    },
+    "category_specific": {
+      "electronics": {
+        "return_window": "14 days",
+        "conditions": "Must include all accessories, manuals, and original packaging. Devices must not be activated or registered. Restocking fee of 15% applies to opened items."
+      },
+      "clothing_accessories": {
+        "return_window": "30 days",
+        "conditions": "Tags must be attached. Items must be unworn and unwashed. No visible signs of wear or deodorant marks."
+      },
+      "furniture": {
+        "return_window": "30 days",
+        "conditions": "Must be unassembled or in original packaging. Pickup can be arranged for large items. Return shipping fees vary by size."
+      },
+      "appliances": {
+        "return_window": "30 days",
+        "conditions": "Must be unused with original packaging. Installation voids return eligibility. Haul-away service available for large appliances."
+      },
+      "jewelry_watches": {
+        "return_window": "60 days",
+        "conditions": "Must include original certificates, boxes, and documentation. Professional appraisal may be required for high-value items."
+      }
+    },
+    "return_shipping": {
+      "free_return_shipping": [
+        "Defective or damaged items",
+        "Wrong item received",
+        "Order errors (our mistake)"
+      ],
+      "customer_paid_shipping": {
+        "standard_fee": "$6.99",
+        "conditions": "Applies to returns for reasons other than defects or errors. Deducted from refund amount."
+      }
+    },
+    "refund_process": {
+      "timeline": "5-7 business days after receiving returned item",
+      "method": "Refunded to original payment method",
+      "partial_refunds": "Applied if item shows signs of use or missing components",
+      "store_credit_option": "Instant store credit available (no shipping fee deducted)"
+    }
+  },
+  "shipping_policy": {
+    "overview": "ShopEase provides reliable shipping options to ensure timely delivery of your orders. Shipping costs and delivery times vary based on destination and selected method.",
+    "shipping_methods": {
+      "standard": {
+        "cost": "$5.99",
+        "delivery_time": "3-5 business days",
+        "free_threshold": "$50 order minimum",
+        "tracking": "Included",
+        "carriers": ["USPS", "FedEx Ground", "UPS Ground"]
+      },
+      "express": {
+        "cost": "$12.99",
+        "delivery_time": "1-2 business days",
+        "free_threshold": "$150 order minimum",
+        "tracking": "Included with SMS updates",
+        "carriers": ["FedEx Express", "UPS Next Day Air"]
+      },
+      "overnight": {
+        "cost": "$24.99",
+        "delivery_time": "Next business day",
+        "cutoff_time": "2:00 PM EST for same-day processing",
+        "tracking": "Real-time tracking with signature required",
+        "carriers": ["FedEx Overnight", "UPS Next Day Air Early"]
+      },
+      "international": {
+        "cost": "Calculated at checkout ($15-$50)",
+        "delivery_time": "7-14 business days",
+        "customs": "Customer responsible for duties and taxes",
+        "tracking": "International tracking included",
+        "carriers": ["DHL", "FedEx International", "UPS Worldwide"]
+      }
+    },
+    "processing_times": {
+      "standard_orders": "1-2 business days",
+      "custom_orders": "3-5 business days",
+      "pre_orders": "Ships on release date",
+      "holiday_seasons": "Extended processing up to 3-4 business days"
+    },
+    "shipping_restrictions": {
+      "po_boxes": "Standard shipping only (no express/overnight)",
+      "alaska_hawaii": "Additional $10 fee, 7-10 business days",
+      "international_restricted": [
+        "Electronics with lithium batteries (country-specific)",
+        "Aerosols and pressurized items",
+        "Perishable goods",
+        "Items over $2,500 value (require special handling)"
+      ]
+    },
+    "order_tracking": {
+      "tracking_updates": "Every 12-24 hours once shipped",
+      "notification_methods": ["Email", "SMS (opt-in)", "Mobile app push"],
+      "tracking_issues": "Contact support if no updates after 3 days"
+    }
+  },
+  "privacy_policy": {
+    "overview": "ShopEase is committed to protecting customer privacy and handling personal information responsibly in compliance with GDPR, CCPA, and other applicable regulations.",
+    "information_collected": {
+      "personal_information": [
+        "Name, email address, phone number",
+        "Billing and shipping addresses",
+        "Payment information (processed securely, not stored)",
+        "Order history and preferences",
+        "Communication preferences"
+      ],
+      "automatic_information": [
+        "IP address and device information",
+        "Browser type and version",
+        "Pages visited and time spent",
+        "Referral source",
+        "Cookies and similar tracking technologies"
+      ]
+    },
+    "information_usage": {
+      "purposes": [
+        "Processing and fulfilling orders",
+        "Customer support and communication",
+        "Personalized shopping experience",
+        "Marketing communications (with consent)",
+        "Fraud prevention and security",
+        "Analytics and business improvement"
+      ]
+    },
+    "data_sharing": {
+      "third_parties": [
+        "Payment processors (Stripe, PayPal)",
+        "Shipping carriers (FedEx, UPS, USPS)",
+        "Marketing platforms (with consent)",
+        "Analytics providers (Google Analytics)"
+      ],
+      "never_shared": "Personal information is never sold to third parties"
+    },
+    "user_rights": {
+      "access": "Request copy of your personal data",
+      "correction": "Update or correct your information",
+      "deletion": "Request deletion of your account and data",
+      "opt_out": "Unsubscribe from marketing communications",
+      "portability": "Receive your data in portable format"
+    },
+    "data_security": {
+      "measures": [
+        "SSL/TLS encryption for all transactions",
+        "PCI DSS compliance for payment processing",
+        "Regular security audits and updates",
+        "Access controls and employee training",
+        "Secure data storage with encryption at rest"
+      ]
+    },
+    "cookie_policy": {
+      "essential_cookies": "Required for site functionality",
+      "analytics_cookies": "Help improve user experience (optional)",
+      "marketing_cookies": "Enable personalized ads (optional)",
+      "cookie_management": "Customize preferences in cookie settings"
+    }
+  },
+  "price_match_policy": {
+    "overview": "ShopEase offers a price match guarantee to ensure you get the best value for your purchases.",
+    "eligibility": {
+      "timeframe": "Within 14 days of purchase",
+      "competitors": "Authorized retailers with physical or online presence",
+      "conditions": [
+        "Identical product (same model, size, color)",
+        "Competitor must have item in stock",
+        "Competitor price must include shipping",
+        "Excludes marketplace sellers and auction sites",
+        "One price match per item per customer"
+      ]
+    },
+    "exclusions": [
+      "Clearance, closeout, or damaged items",
+      "Bundle deals or promotional packages",
+      "Membership-based pricing (e.g., Costco)",
+      "Black Friday/Cyber Monday deals",
+      "Competitor coupons or gift card promotions"
+    ],
+    "process": {
+      "submission": "Email proof of lower price to pricematch@shopease.com",
+      "verification": "2-3 business days for review",
+      "adjustment": "Refund difference to original payment method or store credit"
+    }
+  },
+  "gift_card_policy": {
+    "overview": "ShopEase gift cards are a perfect gifting option, redeemable for any products on our platform.",
+    "purchase": {
+      "denominations": "$10, $25, $50, $100, $200, custom amounts up to $500",
+      "delivery_methods": ["Email delivery (instant)", "Physical card (3-5 business days)", "Printable at home"]
+    },
+    "redemption": {
+      "validity": "No expiration date",
+      "balance_check": "Check balance online or during checkout",
+      "partial_use": "Remaining balance saved for future purchases",
+      "combination": "Can be combined with other gift cards (up to 5 per order)"
+    },
+    "terms": {
+      "non_refundable": "Gift cards cannot be refunded or exchanged for cash",
+      "lost_cards": "Replacement available with proof of purchase and card number",
+      "fraud_protection": "Immediately report lost or stolen cards"
+    }
+  }
+}

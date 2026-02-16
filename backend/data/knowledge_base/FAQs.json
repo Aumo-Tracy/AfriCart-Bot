@@ -1,0 +1,169 @@
+{
+  "faqs": [
+    {
+      "id": "faq_001",
+      "category": "shipping",
+      "question": "How long does shipping take?",
+      "answer": "Shipping times vary by location:\n- Standard Shipping: 3-5 business days\n- Express Shipping: 1-2 business days\n- International: 7-14 business days\nShipping times exclude weekends and public holidays. You'll receive a tracking number once your order ships.",
+      "metadata": {
+        "priority": "high",
+        "updated": "2025-01-15",
+        "tags": ["shipping", "delivery", "timeline"]
+      }
+    },
+    {
+      "id": "faq_002",
+      "category": "shipping",
+      "question": "How much does shipping cost?",
+      "answer": "Shipping costs are calculated at checkout based on:\n- Order total: FREE shipping on orders over $50\n- Standard Shipping: $5.99\n- Express Shipping: $12.99\n- International: Varies by destination ($15-$50)\nShipping discounts are automatically applied to eligible orders.",
+      "metadata": {
+        "priority": "high",
+        "updated": "2025-01-15",
+        "tags": ["shipping", "cost", "free-shipping"]
+      }
+    },
+    {
+      "id": "faq_003",
+      "category": "returns",
+      "question": "What is your return policy?",
+      "answer": "We offer a 30-day return policy for most items:\n- Items must be unused and in original packaging\n- Electronics: 14-day return window\n- Sale items: Final sale, no returns\n- Custom/Personalized items: Non-returnable\nReturn shipping is free for defective items. For other returns, a $6.99 shipping fee applies.",
+      "metadata": {
+        "priority": "high",
+        "updated": "2025-01-15",
+        "tags": ["returns", "policy", "refund"]
+      }
+    },
+    {
+      "id": "faq_004",
+      "category": "returns",
+      "question": "How do I start a return?",
+      "answer": "To initiate a return:\n1. Go to 'My Orders' and select the order\n2. Click 'Return Items'\n3. Select items and return reason\n4. Print the prepaid return label\n5. Drop off at any authorized location\nRefunds are processed within 5-7 business days after we receive your return.",
+      "metadata": {
+        "priority": "high",
+        "updated": "2025-01-15",
+        "tags": ["returns", "process", "how-to"]
+      }
+    },
+    {
+      "id": "faq_005",
+      "category": "payment",
+      "question": "What payment methods do you accept?",
+      "answer": "We accept the following payment methods:\n- Credit/Debit Cards: Visa, Mastercard, American Express, Discover\n- Digital Wallets: PayPal, Apple Pay, Google Pay\n- Buy Now Pay Later: Klarna, Afterpay\n- Gift Cards: ShopEase gift cards\nAll payments are processed securely with SSL encryption.",
+      "metadata": {
+        "priority": "medium",
+        "updated": "2025-01-15",
+        "tags": ["payment", "methods", "security"]
+      }
+    },
+    {
+      "id": "faq_006",
+      "category": "payment",
+      "question": "When will I be charged?",
+      "answer": "Payment is processed when your order ships. For pre-orders, you'll be charged when the item becomes available. If you use Buy Now Pay Later options, billing schedules follow the provider's terms (typically 4 payments over 6 weeks).",
+      "metadata": {
+        "priority": "medium",
+        "updated": "2025-01-15",
+        "tags": ["payment", "billing", "charge"]
+      }
+    },
+    {
+      "id": "faq_007",
+      "category": "orders",
+      "question": "Can I cancel or modify my order?",
+      "answer": "Orders can be cancelled or modified within 1 hour of placement:\n- Log into 'My Orders'\n- Select the order and click 'Cancel/Modify'\n- Changes are subject to availability\nOnce an order ships, it cannot be cancelled. You may return it after delivery instead.",
+      "metadata": {
+        "priority": "high",
+        "updated": "2025-01-15",
+        "tags": ["orders", "cancel", "modify"]
+      }
+    },
+    {
+      "id": "faq_008",
+      "category": "orders",
+      "question": "How do I track my order?",
+      "answer": "Track your order in three ways:\n1. Check your email for the shipping confirmation with tracking link\n2. Visit 'My Orders' section and click 'Track Package'\n3. Use your order number and email at our tracking page\nTracking updates every 12-24 hours once your package is shipped.",
+      "metadata": {
+        "priority": "high",
+        "updated": "2025-01-15",
+        "tags": ["orders", "tracking", "status"]
+      }
+    },
+    {
+      "id": "faq_009",
+      "category": "account",
+      "question": "How do I create an account?",
+      "answer": "Creating an account is easy:\n1. Click 'Sign Up' in the top right\n2. Enter your email and create a password\n3. Verify your email address\n4. Complete your profile (optional)\nAccount benefits include faster checkout, order tracking, saved addresses, and exclusive deals.",
+      "metadata": {
+        "priority": "medium",
+        "updated": "2025-01-15",
+        "tags": ["account", "signup", "registration"]
+      }
+    },
+    {
+      "id": "faq_010",
+      "category": "account",
+      "question": "I forgot my password. What should I do?",
+      "answer": "To reset your password:\n1. Click 'Sign In' then 'Forgot Password'\n2. Enter your email address\n3. Check your email for a reset link\n4. Create a new password\nReset links expire after 24 hours. If you don't receive the email, check your spam folder.",
+      "metadata": {
+        "priority": "medium",
+        "updated": "2025-01-15",
+        "tags": ["account", "password", "reset"]
+      }
+    },
+    {
+      "id": "faq_011",
+      "category": "discounts",
+      "question": "How do I use a discount code?",
+      "answer": "Apply discount codes at checkout:\n1. Add items to cart\n2. Proceed to checkout\n3. Enter code in 'Discount Code' field\n4. Click 'Apply'\nCodes are case-sensitive. Only one code per order. Cannot be combined with other promotions unless stated.",
+      "metadata": {
+        "priority": "high",
+        "updated": "2025-01-15",
+        "tags": ["discounts", "promo-codes", "coupons"]
+      }
+    },
+    {
+      "id": "faq_012",
+      "category": "discounts",
+      "question": "Do you offer student or military discounts?",
+      "answer": "Yes! We offer special discounts:\n- Students: 15% off with valid .edu email\n- Military/Veterans: 10% off with ID verification\n- Healthcare Workers: 10% off with credential verification\nVerify your status through our partner SheerID at checkout. Discounts renew annually.",
+      "metadata": {
+        "priority": "medium",
+        "updated": "2025-01-15",
+        "tags": ["discounts", "student", "military"]
+      }
+    },
+    {
+      "id": "faq_013",
+      "category": "products",
+      "question": "Are products covered by warranty?",
+      "answer": "Warranty coverage varies by product:\n- Electronics: 1-year manufacturer warranty\n- Appliances: 2-year limited warranty\n- Furniture: 90-day warranty\n- Clothing/Accessories: No warranty (covered by return policy)\nExtended warranties are available at checkout for eligible items.",
+      "metadata": {
+        "priority": "medium",
+        "updated": "2025-01-15",
+        "tags": ["products", "warranty", "coverage"]
+      }
+    },
+    {
+      "id": "faq_014",
+      "category": "products",
+      "question": "How do I know if an item is in stock?",
+      "answer": "Stock status is shown on the product page:\n- 'In Stock': Available for immediate shipping\n- 'Low Stock': Limited quantity remaining\n- 'Out of Stock': Not currently available\n- 'Pre-Order': Available on specified date\nYou can sign up for email alerts when out-of-stock items become available.",
+      "metadata": {
+        "priority": "medium",
+        "updated": "2025-01-15",
+        "tags": ["products", "stock", "availability"]
+      }
+    },
+    {
+      "id": "faq_015",
+      "category": "support",
+      "question": "How can I contact customer support?",
+      "answer": "Contact us through multiple channels:\n- Live Chat: Available 24/7 (fastest response)\n- Email: support@shopease.com (24-48 hour response)\n- Phone: 1-800-SHOPEASE (Mon-Fri 9AM-6PM EST)\n- Social Media: @ShopEase on Twitter/Facebook\nFor order-specific issues, have your order number ready.",
+      "metadata": {
+        "priority": "high",
+        "updated": "2025-01-15",
+        "tags": ["support", "contact", "help"]
+      }
+    }
+  ]
+}
