@@ -17,7 +17,8 @@ class Settings(BaseSettings):
     LOG_LEVEL: str = "INFO"
     
     # API Keys
-    OPENAI_API_KEY: str
+    OPENAI_API_KEY: Optional[str] = None  # Made optional
+    GOOGLE_API_KEY: Optional[str] = None  # ADD THIS LINE
     
     # Supabase (Optional)
     SUPABASE_URL: Optional[str] = None
@@ -48,7 +49,7 @@ class Settings(BaseSettings):
     RATE_LIMIT_PER_HOUR: int = 100
     
     # Security
-    SECRET_KEY: str
+    SECRET_KEY: str = "dev-secret-key-change-in-production"  # Added default for development
     ALLOWED_ORIGINS: str = "http://localhost:3000,http://localhost:3001"
     
     # Token Cost Tracking
@@ -67,7 +68,8 @@ class Settings(BaseSettings):
     model_config = SettingsConfigDict(
         env_file=".env",
         env_file_encoding="utf-8",
-        case_sensitive=True
+        case_sensitive=True,
+        extra='ignore'  # ADD THIS LINE - allows extra env vars without errors
     )
     
     @property
@@ -91,20 +93,25 @@ class Settings(BaseSettings):
         return bool(self.PINECONE_API_KEY and not self.USE_LOCAL_VECTORS)
     
     # Token pricing (USD per 1K tokens)
-TOKEN_PRICING: ClassVar[Dict[str, Dict[str, float]]] = {
-    "gpt-3.5-turbo": {
-        "input": 0.0005,   # $0.50 per 1M tokens
-        "output": 0.0015,  # $1.50 per 1M tokens
-    },
-    "gpt-4": {
-        "input": 0.03,
-        "output": 0.06,
-    },
-    "text-embedding-3-small": {
-        "input": 0.00002,  # $0.02 per 1M tokens
+    TOKEN_PRICING: ClassVar[Dict[str, Dict[str, float]]] = {
+        "gpt-3.5-turbo": {
+            "input": 0.0005,   # $0.50 per 1M tokens
+            "output": 0.0015,  # $1.50 per 1M tokens
+        },
+        "gpt-4": {
+            "input": 0.03,
+            "output": 0.06,
+        },
+        "text-embedding-3-small": {
+            "input": 0.00002,  # $0.02 per 1M tokens
+        },
+        "gemini-pro": {  # ADD THIS
+            "input": 0.0,  # FREE!
+            "output": 0.0,  # FREE!
+        }
     }
-}
-def calculate_cost(self, model: str, input_tokens: int, output_tokens: int = 0) -> float:
+    
+    def calculate_cost(self, model: str, input_tokens: int, output_tokens: int = 0) -> float:
         """Calculate API cost for given token usage"""
         if model not in self.TOKEN_PRICING:
             return 0.0

@@ -31,15 +31,8 @@ async def lifespan(app: FastAPI):
     logger.info(f"Environment: {settings.ENVIRONMENT}")
     logger.info(f"Using local mode: {settings.USE_LOCAL_MODE}")
     
-    # Initialize vector store if needed
-    try:
-        from app.services.rag.vector_store import initialize_vector_store_if_needed
-        logger.info("Checking vector store initialization...")
-        initialize_vector_store_if_needed()
-        logger.info("Vector store ready")
-    except Exception as e:
-        logger.warning(f"Vector store initialization skipped: {e}")
-        logger.info("Vector store will initialize on first query")
+    # DISABLED: Vector store initialization (lazy load on first query to avoid rate limits)
+    logger.info("Vector store will initialize on first query (lazy loading)")
     
     # Initialize agent (lazy loading)
     try:
